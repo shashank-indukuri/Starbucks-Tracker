@@ -11,6 +11,7 @@
 		BBECBFB627D9261D003BD63F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFB527D9261D003BD63F /* ContentView.swift */; };
 		BBECBFB827D92624003BD63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBECBFB727D92624003BD63F /* Assets.xcassets */; };
 		BBECBFBB27D92624003BD63F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBECBFBA27D92624003BD63F /* Preview Assets.xcassets */; };
+		BBECBFC427D928CD003BD63F /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = BBECBFC327D928CD003BD63F /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BBECBFB527D9261D003BD63F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBECBFB727D92624003BD63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBECBFBA27D92624003BD63F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBECBFC327D928CD003BD63F /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			children = (
 				BBECBFB327D9261D003BD63F /* Starbucks_TrackerApp.swift */,
 				BBECBFB527D9261D003BD63F /* ContentView.swift */,
-				BBECBFB727D92624003BD63F /* Assets.xcassets */,
+				BBECBFC327D928CD003BD63F /* menu.json */,
 				BBECBFB927D92624003BD63F /* Preview Content */,
 			);
 			path = "Starbucks Tracker";
@@ -62,6 +64,7 @@
 		BBECBFB927D92624003BD63F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BBECBFB727D92624003BD63F /* Assets.xcassets */,
 				BBECBFBA27D92624003BD63F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBECBFC427D928CD003BD63F /* menu.json in Resources */,
 				BBECBFBB27D92624003BD63F /* Preview Assets.xcassets in Resources */,
 				BBECBFB827D92624003BD63F /* Assets.xcassets in Resources */,
 			);
