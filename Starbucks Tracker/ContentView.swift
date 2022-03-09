@@ -27,7 +27,7 @@ struct ContentView: View {
                     Button {
                         displayMenu = true
                     } label: {
-                        Label("Add Your First Drink", systemImage: "cart.fill")
+                        Label("Add Your First Drink", systemImage: "cart")
                     }
                 } else {
                     Section("Summary") {
@@ -59,7 +59,7 @@ struct ContentView: View {
                             Button {
                                 storage.reorder(serving: serving)
                             } label: {
-                                Label("Reorder", systemImage: "repeat")
+                                Label("Repeatorder", systemImage: "repeat")
                             }
                             .tint(.blue)
                         }
@@ -67,7 +67,7 @@ struct ContentView: View {
                 }
             }
             .sheet(isPresented: $displayMenu, content: MainMenuView.init)
-            .navigationTitle("Chill Beans")
+            .navigationTitle("Starbucks Tracker")
             .toolbar {
                 Button {
                     displayMenu = true

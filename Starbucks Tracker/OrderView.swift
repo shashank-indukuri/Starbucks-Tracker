@@ -21,7 +21,7 @@ struct OrderView: View {
     @State private var isFirst = true
     
     // Size options
-    let sizeOptions = ["Short", "Tall", "Grande"]
+    let sizeOptions = ["Short", "Tall", "Grande", "Venti"]
     
     // Computed property to calculate caffeine
     var caffeine: Int {

@@ -7,66 +7,66 @@
                 {
                     "id": "3221353D-DFAC-4BD9-8624-D4810A02F285",
                     "name": "Caffè Americano",
-                    "caffeine": [100, 180, 250],
+                    "caffeine": [75, 150, 225, 300],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 20
+                    "baseCalories": 5
                 },
                 {
                     "id": "B6C978D6-4943-4463-8D43-56571EE50284",
                     "name": "Cappuccino",
-                    "caffeine": [80, 150, 220],
+                    "caffeine": [75, 75, 150, 150],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 80
+                    "baseCalories": 70
                 },
                 {
                     "id": "1CCF7094-D58D-4A09-B15B-AD579603B9F9",
                     "name": "Caffè Mocha",
-                    "caffeine": [100, 180, 250],
+                    "caffeine": [90, 95, 175, 185],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 40
+                    "baseCalories": 200
                 },
                 {
                     "id": "2DA502E1-06C1-4F9C-97B4-74BECA5C154A",
                     "name": "Espresso",
-                    "caffeine": [100, 180, 250],
+                    "caffeine": [150, 150, 150, 150],
                     "coffeeBased": true,
-                    "servedWithMilk": false,
-                    "baseCalories": 5
+                    "servedWithMilk": true,
+                    "baseCalories": 10
                 },
                 {
                     "id": "33C363E4-C802-4CB3-A045-0FDAB76142D7",
                     "name": "Flat White",
-                    "caffeine": [60, 120, 200],
+                    "caffeine": [130, 130, 190, 195],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 60
+                    "baseCalories": 110
                 },
                 {
                     "id": "9F900841-67E3-4B6E-9065-69023FBA9B8E",
                     "name": "Dolce Latte",
-                    "caffeine": [60, 120, 200],
+                    "caffeine": [75, 75, 150, 150],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 120
+                    "baseCalories": 190
                 },
                 {
                     "id": "59F7CB30-18C7-43C1-A1B0-94E22D06C2A4",
                     "name": "Starbucks® Latte",
-                    "caffeine": [100, 180, 250],
+                    "caffeine": [135, 135, 135, 135],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 40
+                    "baseCalories": 190
                 },
                 {
                     "id": "A14567DA-9E62-4740-8352-A4ECA46CA2F7",
                     "name": "Caffè Misto",
-                    "caffeine": [100, 180, 250],
+                    "caffeine": [75, 90, 150, 195],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 140
+                    "baseCalories": 50
                 }
             ]
         },
@@ -77,50 +77,50 @@
                 {
                     "id": "F420C34C-7F10-4487-ADBA-6906E56D7D0B",
                     "name": "Chai Tea Latte",
-                    "caffeine": [30, 50, 80],
+                    "caffeine": [50, 70, 95, 120],
                     "coffeeBased": false,
                     "servedWithMilk": true,
-                    "baseCalories": 50
+                    "baseCalories": 120
                 },
                 {
                     "id": "719FD3A1-C7C1-4C1F-BF50-D34BBBA3CC1B",
                     "name": "Chai Tea",
-                    "caffeine": [15, 25, 32],
+                    "caffeine": [40, 40, 40, 40],
                     "coffeeBased": false,
                     "servedWithMilk": true,
-                    "baseCalories": 1
+                    "baseCalories": 0
                 },
                 {
                     "id": "5DD6FC3B-06AF-4864-A218-731A44A74D8E",
                     "name": "Emperor’s C & Mist®",
-                    "caffeine": [30, 55, 90],
+                    "caffeine": [1, 1, 1, 1],
                     "coffeeBased": false,
-                    "servedWithMilk": false,
-                    "baseCalories": 1
+                    "servedWithMilk": true,
+                    "baseCalories": 0
                 },
                 {
                     "id": "23337828-2927-4766-B8CA-46C9D549DAF7",
                     "name": "Honey Mint Tea",
-                    "caffeine": [20, 30, 40],
+                    "caffeine": [16, 16, 16, 16],
                     "coffeeBased": false,
                     "servedWithMilk": true,
-                    "baseCalories": 1
+                    "baseCalories": 60
                 },
                 {
                     "id": "D11AF4C1-79E3-4949-9E93-15DB4FF01140",
                     "name": "Jade Mint® Tea",
-                    "caffeine": [30, 60, 90],
+                    "caffeine": [16, 16, 40, 40],
                     "coffeeBased": false,
                     "servedWithMilk": false,
-                    "baseCalories": 1
+                    "baseCalories": 0
                 },
                 {
                     "id": "953A26B0-8876-4EBF-94CB-E70F785C0B2A",
                     "name": "Matcha Tea Latte",
-                    "caffeine": [0, 0, 0],
+                    "caffeine": [30, 50, 80, 110],
                     "coffeeBased": false,
-                    "servedWithMilk": false,
-                    "baseCalories": 1
+                    "servedWithMilk": true,
+                    "baseCalories": 110
                 }
             ]
         },
@@ -131,66 +131,66 @@
                 {
                     "id": "E13A669C-DC64-4247-B006-1C5AF0DDE494",
                     "name": "Dragon Drink",
-                    "caffeine": [60, 80, 120],
-                    "coffeeBased": true,
-                    "servedWithMilk": true,
-                    "baseCalories": 30
+                    "caffeine": [35, 45, 70, 90],
+                    "coffeeBased": false,
+                    "servedWithMilk": false,
+                    "baseCalories": 110
                 },
                 {
                     "id": "9758F3FF-3E5F-4793-9C50-5E0802B08ACB",
                     "name": "Iced Black Tea",
-                    "caffeine": [60, 120, 200],
-                    "coffeeBased": true,
-                    "servedWithMilk": true,
-                    "baseCalories": 150
+                    "caffeine": [20, 25, 40, 50],
+                    "coffeeBased": false,
+                    "servedWithMilk": false,
+                    "baseCalories": 0
                 },
                 {
                     "id": "5E9DA395-D917-461B-BD93-70F77EA74153",
                     "name": "Iced Caffè Americano",
-                    "caffeine": [70, 140, 210],
+                    "caffeine": [150, 225, 300, 330],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 180
+                    "baseCalories": 10
                 },
                 {
                     "id": "848EBB38-22AA-44C5-9F01-6FB5E871CE1D",
                     "name": "Iced Tea Latte",
-                    "caffeine": [20, 30, 40],
+                    "caffeine": [40, 40, 40, 40],
                     "coffeeBased": false,
                     "servedWithMilk": true,
-                    "baseCalories": 80
+                    "baseCalories": 100
                 },
                 {
                     "id": "15b568ff-61e8-43e9-b810-b3e2b9bda4dd",
                     "name": "Kiwi Starfruit",
-                    "caffeine": [60, 80, 120],
+                    "caffeine": [35, 45, 70, 90],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 30
+                    "baseCalories": 70
                 },
                 {
                     "id": "387ef25e-24ab-41f0-a0d6-4cd83e43d603",
                     "name": "Pink Drink",
-                    "caffeine": [60, 120, 200],
-                    "coffeeBased": true,
-                    "servedWithMilk": true,
-                    "baseCalories": 150
+                    "caffeine": [35, 45, 70, 90],
+                    "coffeeBased": false,
+                    "servedWithMilk": false,
+                    "baseCalories": 110
                 },
                 {
                     "id": "3d59cce0-f70c-433d-b9e4-3b0a82faa0c4",
                     "name": "Caramel Cold Brew",
-                    "caffeine": [70, 140, 210],
+                    "caffeine": [145, 185, 275, 320],
                     "coffeeBased": true,
                     "servedWithMilk": true,
-                    "baseCalories": 180
+                    "baseCalories": 160
                 },
                 {
                     "id": "1e4b70c0-e50d-46da-af00-8e2c96c60ee3",
                     "name": "Strawberry Lemonade",
-                    "caffeine": [20, 30, 40],
+                    "caffeine": [35, 45, 70, 90],
                     "coffeeBased": false,
-                    "servedWithMilk": true,
-                    "baseCalories": 80
+                    "servedWithMilk": false,
+                    "baseCalories": 110
                 }
             ]
         }
