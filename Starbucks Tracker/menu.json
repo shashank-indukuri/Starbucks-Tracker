@@ -164,8 +164,8 @@
                     "id": "15b568ff-61e8-43e9-b810-b3e2b9bda4dd",
                     "name": "Kiwi Starfruit",
                     "caffeine": [35, 45, 70, 90],
-                    "coffeeBased": true,
-                    "servedWithMilk": true,
+                    "coffeeBased": false,
+                    "servedWithMilk": false,
                     "baseCalories": 70
                 },
                 {
