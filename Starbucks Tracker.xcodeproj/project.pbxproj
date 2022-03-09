@@ -12,6 +12,10 @@
 		BBECBFB827D92624003BD63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBECBFB727D92624003BD63F /* Assets.xcassets */; };
 		BBECBFBB27D92624003BD63F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBECBFBA27D92624003BD63F /* Preview Assets.xcassets */; };
 		BBECBFC427D928CD003BD63F /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = BBECBFC327D928CD003BD63F /* menu.json */; };
+		BBECBFC627D92A2D003BD63F /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFC527D92A2D003BD63F /* MainMenuView.swift */; };
+		BBECBFC827D92ACD003BD63F /* DrinkServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFC727D92ACD003BD63F /* DrinkServing.swift */; };
+		BBECBFCA27D92B0C003BD63F /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFC927D92B0C003BD63F /* FileManager.swift */; };
+		BBECBFCC27D92B5F003BD63F /* ManageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFCB27D92B5F003BD63F /* ManageStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		BBECBFB727D92624003BD63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBECBFBA27D92624003BD63F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBECBFC327D928CD003BD63F /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		BBECBFC527D92A2D003BD63F /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		BBECBFC727D92ACD003BD63F /* DrinkServing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkServing.swift; sourceTree = "<group>"; };
+		BBECBFC927D92B0C003BD63F /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		BBECBFCB27D92B5F003BD63F /* ManageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				BBECBFB527D9261D003BD63F /* ContentView.swift */,
 				BBECBFC327D928CD003BD63F /* menu.json */,
 				BBECBFB927D92624003BD63F /* Preview Content */,
+				BBECBFC527D92A2D003BD63F /* MainMenuView.swift */,
+				BBECBFC727D92ACD003BD63F /* DrinkServing.swift */,
+				BBECBFC927D92B0C003BD63F /* FileManager.swift */,
+				BBECBFCB27D92B5F003BD63F /* ManageStorage.swift */,
 			);
 			path = "Starbucks Tracker";
 			sourceTree = "<group>";
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBECBFCC27D92B5F003BD63F /* ManageStorage.swift in Sources */,
+				BBECBFCA27D92B0C003BD63F /* FileManager.swift in Sources */,
+				BBECBFC627D92A2D003BD63F /* MainMenuView.swift in Sources */,
 				BBECBFB627D9261D003BD63F /* ContentView.swift in Sources */,
 				BBECBFB427D9261D003BD63F /* Starbucks_TrackerApp.swift in Sources */,
+				BBECBFC827D92ACD003BD63F /* DrinkServing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
