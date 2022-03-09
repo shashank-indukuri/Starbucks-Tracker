@@ -57,19 +57,19 @@ class ManageStorage: ObservableObject {
         
         let description = descriptionString.joined(separator: ", ")
         
-        let serving = ServingDrink(id: UUID(), name: drink.name, description: description, caffeine: caffeine, calories: calories)
+        let serving = DrinkServing(id: UUID(), name: drink.name, description: description, caffeine: caffeine, calories: calories)
         servings.insert(serving, at: 0)
         save()
     }
     
-    func reorder(serving: ServingDrink) {
+    func reorder(serving: DrinkServing) {
         var copy = serving
         copy.id = UUID()
         servings.insert(copy, at: 0)
         save()
     }
     
-    func delete(serving: ServingDrink) {
+    func delete(serving: DrinkServing) {
         if let index = servings.firstIndex(of: serving) {
             servings.remove(at: index)
             save()

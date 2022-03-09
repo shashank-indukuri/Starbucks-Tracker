@@ -16,6 +16,11 @@
 		BBECBFC827D92ACD003BD63F /* DrinkServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFC727D92ACD003BD63F /* DrinkServing.swift */; };
 		BBECBFCA27D92B0C003BD63F /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFC927D92B0C003BD63F /* FileManager.swift */; };
 		BBECBFCC27D92B5F003BD63F /* ManageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFCB27D92B5F003BD63F /* ManageStorage.swift */; };
+		BBECBFCE27D92BB9003BD63F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFCD27D92BB9003BD63F /* OrderView.swift */; };
+		BBECBFD027D92C0D003BD63F /* MainMenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFCF27D92C0D003BD63F /* MainMenuSection.swift */; };
+		BBECBFD227D92C3F003BD63F /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFD127D92C3F003BD63F /* Drink.swift */; };
+		BBECBFD427D92C5F003BD63F /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFD327D92C5F003BD63F /* MainMenu.swift */; };
+		BBECBFD627D92C9D003BD63F /* ConfigOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECBFD527D92C9D003BD63F /* ConfigOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		BBECBFC727D92ACD003BD63F /* DrinkServing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkServing.swift; sourceTree = "<group>"; };
 		BBECBFC927D92B0C003BD63F /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		BBECBFCB27D92B5F003BD63F /* ManageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageStorage.swift; sourceTree = "<group>"; };
+		BBECBFCD27D92BB9003BD63F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		BBECBFCF27D92C0D003BD63F /* MainMenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuSection.swift; sourceTree = "<group>"; };
+		BBECBFD127D92C3F003BD63F /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		BBECBFD327D92C5F003BD63F /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		BBECBFD527D92C9D003BD63F /* ConfigOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,11 @@
 				BBECBFC727D92ACD003BD63F /* DrinkServing.swift */,
 				BBECBFC927D92B0C003BD63F /* FileManager.swift */,
 				BBECBFCB27D92B5F003BD63F /* ManageStorage.swift */,
+				BBECBFCD27D92BB9003BD63F /* OrderView.swift */,
+				BBECBFCF27D92C0D003BD63F /* MainMenuSection.swift */,
+				BBECBFD127D92C3F003BD63F /* Drink.swift */,
+				BBECBFD327D92C5F003BD63F /* MainMenu.swift */,
+				BBECBFD527D92C9D003BD63F /* ConfigOptions.swift */,
 			);
 			path = "Starbucks Tracker";
 			sourceTree = "<group>";
@@ -154,11 +169,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBECBFCC27D92B5F003BD63F /* ManageStorage.swift in Sources */,
+				BBECBFD227D92C3F003BD63F /* Drink.swift in Sources */,
 				BBECBFCA27D92B0C003BD63F /* FileManager.swift in Sources */,
 				BBECBFC627D92A2D003BD63F /* MainMenuView.swift in Sources */,
 				BBECBFB627D9261D003BD63F /* ContentView.swift in Sources */,
+				BBECBFD427D92C5F003BD63F /* MainMenu.swift in Sources */,
+				BBECBFCE27D92BB9003BD63F /* OrderView.swift in Sources */,
 				BBECBFB427D9261D003BD63F /* Starbucks_TrackerApp.swift in Sources */,
 				BBECBFC827D92ACD003BD63F /* DrinkServing.swift in Sources */,
+				BBECBFD027D92C0D003BD63F /* MainMenuSection.swift in Sources */,
+				BBECBFD627D92C9D003BD63F /* ConfigOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

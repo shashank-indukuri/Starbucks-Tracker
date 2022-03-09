@@ -24,7 +24,7 @@ struct MainMenuView: View {
                         Section {
                             ForEach(section.filters(for: searchText)) {drink in
                                 NavigationLink {
-                                    DetailView(drink: drink) {
+                                    OrderView(drink: drink) {
                                         dismiss()
                                     }
                                 } label: {
@@ -60,7 +60,7 @@ struct MainMenuView: View {
 
 struct MainMenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView()
-            .environmentObject(Menu())
+        MainMenuView()
+            .environmentObject(MainMenu())
     }
 }
