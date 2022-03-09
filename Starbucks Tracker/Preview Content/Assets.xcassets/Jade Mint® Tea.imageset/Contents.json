@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Jade Citrus Mint® Brewed Tea@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Jade Citrus Mint® Brewed Tea@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Jade Citrus Mint® Brewed Tea@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

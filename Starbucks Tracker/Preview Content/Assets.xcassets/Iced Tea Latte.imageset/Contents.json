@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Iced Royal English Breakfast Tea Latte@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Iced Royal English Breakfast Tea Latte@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Iced Royal English Breakfast Tea Latte@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -29,7 +29,7 @@ struct MainMenuView: View {
                                     }
                                 } label: {
                                     VStack {
-                                        Image(drink.image)
+                                        Image(drink.name)
                                             .resizable()
                                             .scaledToFit()
                                             .cornerRadius(10)

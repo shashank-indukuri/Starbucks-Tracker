@@ -46,7 +46,7 @@
                 },
                 {
                     "id": "9F900841-67E3-4B6E-9065-69023FBA9B8E",
-                    "name": "Cinnamon Dolce Latte",
+                    "name": "Dolce Latte",
                     "caffeine": [60, 120, 200],
                     "coffeeBased": true,
                     "servedWithMilk": true,
@@ -54,7 +54,7 @@
                 },
                 {
                     "id": "59F7CB30-18C7-43C1-A1B0-94E22D06C2A4",
-                    "name": "Starbucks Reserve® Latte",
+                    "name": "Starbucks® Latte",
                     "caffeine": [100, 180, 250],
                     "coffeeBased": true,
                     "servedWithMilk": true,
@@ -92,7 +92,7 @@
                 },
                 {
                     "id": "5DD6FC3B-06AF-4864-A218-731A44A74D8E",
-                    "name": "Emperor’s Clouds & Mist®",
+                    "name": "Emperor’s C & Mist®",
                     "caffeine": [30, 55, 90],
                     "coffeeBased": false,
                     "servedWithMilk": false,
@@ -100,7 +100,7 @@
                 },
                 {
                     "id": "23337828-2927-4766-B8CA-46C9D549DAF7",
-                    "name": "Honey Citrus Mint Tea",
+                    "name": "Honey Mint Tea",
                     "caffeine": [20, 30, 40],
                     "coffeeBased": false,
                     "servedWithMilk": true,
@@ -108,7 +108,7 @@
                 },
                 {
                     "id": "D11AF4C1-79E3-4949-9E93-15DB4FF01140",
-                    "name": "Jade Citrus Mint® Brewed Tea",
+                    "name": "Jade Mint® Tea",
                     "caffeine": [30, 60, 90],
                     "coffeeBased": false,
                     "servedWithMilk": false,
@@ -116,7 +116,7 @@
                 },
                 {
                     "id": "953A26B0-8876-4EBF-94CB-E70F785C0B2A",
-                    "name": "Matcha Tea Latte,
+                    "name": "Matcha Tea Latte",
                     "caffeine": [0, 0, 0],
                     "coffeeBased": false,
                     "servedWithMilk": false,
@@ -154,7 +154,7 @@
                 },
                 {
                     "id": "848EBB38-22AA-44C5-9F01-6FB5E871CE1D",
-                    "name": "Iced Royal English Breakfast Tea Latte",
+                    "name": "Iced Tea Latte",
                     "caffeine": [20, 30, 40],
                     "coffeeBased": false,
                     "servedWithMilk": true,
@@ -162,7 +162,7 @@
                 },
                 {
                     "id": "15b568ff-61e8-43e9-b810-b3e2b9bda4dd",
-                    "name": "Kiwi Starfruit Starbucks Refreshers® Beverage",
+                    "name": "Kiwi Starfruit",
                     "caffeine": [60, 80, 120],
                     "coffeeBased": true,
                     "servedWithMilk": true,
@@ -178,7 +178,7 @@
                 },
                 {
                     "id": "3d59cce0-f70c-433d-b9e4-3b0a82faa0c4",
-                    "name": "Salted Caramel Cream Cold Brew",
+                    "name": "Caramel Cold Brew",
                     "caffeine": [70, 140, 210],
                     "coffeeBased": true,
                     "servedWithMilk": true,
@@ -186,7 +186,7 @@
                 },
                 {
                     "id": "1e4b70c0-e50d-46da-af00-8e2c96c60ee3",
-                    "name": "Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
+                    "name": "Strawberry Lemonade",
                     "caffeine": [20, 30, 40],
                     "coffeeBased": false,
                     "servedWithMilk": true,
