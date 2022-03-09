@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainMenuView: View {
-    @EnvironmentObject var menu: Menu
+    @EnvironmentObject var menu: MainMenu
     @Environment(\.dismiss) var dismiss
     
     @State private var searchText = ""
