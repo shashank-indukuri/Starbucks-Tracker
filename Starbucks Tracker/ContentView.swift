@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Maintaing the state
     @StateObject var menu = MainMenu()
     @StateObject var storage = ManageStorage()
     @State private var displayMenu = false
     
+    // Computed property to calculate total caffeine and calories
     var totalCaffeine: Int {
         storage.servings.map(\.caffeine).reduce(0, +)
     }
@@ -30,6 +32,7 @@ struct ContentView: View {
                         Label("Add Your First Drink", systemImage: "cart")
                     }
                 } else {
+                    // Summary to display
                     Section("Summary") {
                         Text("**Caffeine**: \(totalCaffeine)mg")
                         Text("**Calories**: \(totalCalories)")
@@ -47,6 +50,7 @@ struct ContentView: View {
                             
                             Text("\(serving.caffeine)mg")
                         }
+                        // Gestures are added to repeat order and delete
                         .swipeActions {
                             Button(role: .destructive) {
                                 withAnimation {
@@ -76,7 +80,7 @@ struct ContentView: View {
                 }
             }
         }
-            .environmentObject(menu)
+            .environmentObject(menu) // Setting the  state to enivronment object
             .environmentObject(storage)
     }
 }

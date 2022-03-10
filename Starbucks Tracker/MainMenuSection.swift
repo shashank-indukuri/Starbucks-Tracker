@@ -7,11 +7,15 @@
 
 import Foundation
 
+// Modal to store the menu data
 struct MainMenuSection: Identifiable, Codable {
     let id: UUID
     let name: String
     let drinks: [Drink]
     
+    /**
+     A methods that filters the drinks from the input text
+     */
     func filters(for searchText: String) -> [Drink] {
         let trimmedString = searchText.trimmingCharacters(in: .whitespaces)
         

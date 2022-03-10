@@ -15,6 +15,8 @@ struct MainMenuView: View {
     let columns = [
         GridItem(.adaptive(minimum: 150))
     ]
+    
+    // Menu to display
 
     var body: some View {
         NavigationView {

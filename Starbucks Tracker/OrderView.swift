@@ -94,6 +94,7 @@ struct OrderView: View {
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(drink.name)
         .toolbar {
+            // Save button that adds the drink to the list
             Button("Save") {
                 storage.add(drink: drink, size: sizeOptions[index], extraShots: extraShots, isDecaffe: isDecaffe, milk: milk, syrup: syrup, caffeine: caffeine, calories: calories)
                 

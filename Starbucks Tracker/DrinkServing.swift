@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Modal to track the data per drink
 struct DrinkServing: Identifiable, Codable, Equatable {
     var id: UUID
     let name: String

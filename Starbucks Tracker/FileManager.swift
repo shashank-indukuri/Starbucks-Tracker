@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Maintaing the persistent data in the app
 extension FileManager {
     static var documentsDirectory: URL {
         let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)

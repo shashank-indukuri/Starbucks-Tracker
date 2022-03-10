@@ -7,10 +7,12 @@
 
 import Foundation
 
+// Modal to configure the data
 struct ConfigOptions: Identifiable, Codable, Hashable {
     let id: UUID
     let name: String
     let calories: Int
     
+    // It holds the nill
     static let none = ConfigOptions(id: UUID(), name: "None", calories: 0)
 }

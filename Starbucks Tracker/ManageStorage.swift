@@ -9,6 +9,8 @@ import Foundation
 
 class ManageStorage: ObservableObject {
     @Published var servings: [DrinkServing]
+    
+    // Path where data is stored
     let savePath = FileManager.documentsDirectory.appendingPathComponent("StoredDrinks")
     
     init() {
@@ -21,6 +23,9 @@ class ManageStorage: ObservableObject {
         }
     }
     
+    /**
+     A method that save the data in the file manager in json format
+     */
     func save() {
         do {
             let data = try JSONEncoder().encode(servings)
@@ -29,6 +34,10 @@ class ManageStorage: ObservableObject {
             print("Unable to save data")
         }
     }
+    
+    /**
+     A method that adds the drink to orders and displays in summary
+     */
     
     func add(drink: Drink, size: String, extraShots: Int, isDecaffe: Bool, milk: ConfigOptions, syrup: ConfigOptions, caffeine: Int, calories: Int) {
         var descriptionString = [String]()
@@ -62,6 +71,9 @@ class ManageStorage: ObservableObject {
         save()
     }
     
+    /**
+     A method to repeat the exisitng order
+     */
     func reorder(serving: DrinkServing) {
         var copy = serving
         copy.id = UUID()
@@ -69,6 +81,9 @@ class ManageStorage: ObservableObject {
         save()
     }
     
+    /**
+     A method to delete the existing order
+     */
     func delete(serving: DrinkServing) {
         if let index = servings.firstIndex(of: serving) {
             servings.remove(at: index)
