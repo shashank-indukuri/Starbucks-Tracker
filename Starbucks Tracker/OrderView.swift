@@ -65,7 +65,7 @@ struct OrderView: View {
                     Stepper("Extra shots: \(extraShots)", value: $extraShots, in: 0...8)
                 }
                 
-                Toggle("Dacaffeinated", isOn: $isDecaffe)
+                Toggle("Decaffeinated", isOn: $isDecaffe)
             }
             
             Section("Customizations") {

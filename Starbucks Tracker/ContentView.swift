@@ -34,7 +34,7 @@ struct ContentView: View {
                 } else {
                     // Summary to display
                     Section("Summary") {
-                        Text("**Caffeine**: \(totalCaffeine)mg")
+                        Text("**Caffeine**: \(totalCaffeine) mg")
                         Text("**Calories**: \(totalCalories)")
                     }
                     ForEach(storage.servings) { serving in
